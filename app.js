@@ -11,5 +11,10 @@ app.get('/', function(req, res) {
   });
 });
 
+app.get('/aboutus', function(req, res) {
+    res.render('aboutus', {
+  });
+});
+
 app.listen(8080);
 module.exports.getApp = app;
